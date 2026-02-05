@@ -285,15 +285,19 @@
 &trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans           &trans         &trans         &trans     &trans
                                          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans           &trans
             >;
+
+            label = "Symbols";
         };
 
-        layer_6 {
+        FUN {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp F12  &kp F7  &kp F8      &kp F9     &kp PRINTSCREEN    &trans  &trans     &trans    &trans    &trans     &trans
+&trans  &kp F11  &kp F4  &kp F5      &kp F6     &kp SCROLLLOCK     &trans  &kp RSHFT  &kp RGUI  &kp RALT  &kp RCTRL  &trans
+&trans  &kp F10  &kp F1  &kp F2      &kp F3     &kp PAUSE_BREAK    &trans  &trans     &trans    &trans    &trans     &trans
+                         &kp K_MENU  &kp SPACE  &kp TAB            &trans  &trans     &trans
             >;
+
+            label = "Function";
         };
     };
 };

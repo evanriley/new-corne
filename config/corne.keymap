@@ -220,7 +220,7 @@
 &trans  &kp B         &kp L            &kp D            &kp C              &kp V        &kp J            &kp F               &kp O             &kp U             &kp COMMA     &trans
 &trans  &hml LCTRL N  &hml LEFT_ALT R  &hml LEFT_GUI T  &hml LEFT_SHIFT S  &kp G        &kp Y            &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI A  &hmr RIGHT_ALT E  &hmr RCTRL I  &trans
 &trans  &kp X         &kp Q            &kp M            &kp W              &kp Z        &kp K            &kp P               &kp SQT           &kp SEMICOLON     &kp PERIOD    &trans
-                                       &lt 5 ESCAPE     &lt 1 SPACE        &lt 2 TAB    &lt 5 BACKSPACE  &lt 5 ENTER         &lt 6 DELETE
+                                       &lt 5 ESCAPE     &lt 1 SPACE        &lt 2 TAB    &lt 4 BACKSPACE  &lt 5 ENTER         &lt 6 DELETE
             >;
         };
 

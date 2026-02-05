@@ -220,7 +220,7 @@
 &trans  &kp B         &kp L            &kp D            &kp C              &kp V        &kp J            &kp F               &kp O             &kp U             &kp COMMA     &trans
 &trans  &hml LCTRL N  &hml LEFT_ALT R  &hml LEFT_GUI T  &hml LEFT_SHIFT S  &kp G        &kp Y            &hmr RIGHT_SHIFT H  &hmr RIGHT_GUI A  &hmr RIGHT_ALT E  &hmr RCTRL I  &trans
 &trans  &kp X         &kp Q            &kp M            &kp W              &kp Z        &kp K            &kp P               &kp SQT           &kp SEMICOLON     &kp PERIOD    &trans
-                                       &lt 3 ESCAPE     &lt 1 SPACE        &lt 2 TAB    &lt 4 BACKSPACE  &lt 5 ENTER         &lt 6 DELETE
+                                       &lt 5 ESCAPE     &lt 1 SPACE        &lt 2 TAB    &lt 5 BACKSPACE  &lt 5 ENTER         &lt 6 DELETE
             >;
         };
 
@@ -241,6 +241,16 @@
             >;
         };
 
+        Mouse {
+            display-name = "Mouse";
+            bindings = <
+&trans  &trans     &trans        &trans        &trans          &trans    &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans     &trans        &trans        &trans          &trans    &trans          &trans          &trans        &trans           &trans  &trans
+                                 &trans        &trans          &trans    &mkp MB1        &mkp MB2        &mkp MB3
+            >;
+        };
+
         Media {
             display-name = "Media";
 
@@ -255,16 +265,6 @@
 &trans  &kp LCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &trans    &kp K_PREV  &kp C_VOL_DN      &kp C_VOL_UP  &kp K_NEXT  &trans          &trans
 &trans  &trans     &trans        &trans        &trans          &trans    &trans      &trans            &trans        &trans      &bt BT_CLR_ALL  &trans
                                  &trans        &trans          &trans    &kp K_STOP  &kp C_PLAY_PAUSE  &kp K_MUTE
-            >;
-        };
-
-        ADJ {
-            display-name = "System";
-            bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4      &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10      &trans
-&trans  &kp F11       &kp F12       &trans        &trans      &studio_unlock    &trans  &trans  &trans  &trans  &trans       &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &bootloader  &trans
-                                    &trans        &trans      &trans            &trans  &trans  &trans
             >;
         };
 
